@@ -23,7 +23,7 @@ export class DateUtils {
     return {
       year: date.getFullYear(),
       month: date.getMonth(),
-      day: date.getDate(),
+      day: date.getDate() + 1,
       hour: date.getHours(),
       minutes: date.getMinutes(),
       seconds: date.getSeconds(),
