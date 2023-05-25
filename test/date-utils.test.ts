@@ -1,4 +1,4 @@
-import { DateUtils } from "./utils/date";
+import { DateUtils } from "../utils/date";
 
 describe("Test formatDate method", () => {
   const dateUtil = new DateUtils();
