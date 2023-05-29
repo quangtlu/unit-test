@@ -1,6 +1,6 @@
-import { Store } from "../src/checkout";
-import { Discount } from "../src/discount";
-import { ItemType } from "../src/item";
+import { Store } from "../src/store/checkout";
+import { Discount } from "../src/store/discount";
+import { ItemType } from "../src/store/item";
 
 describe("checkout test", () => {
   const discountA = new Discount(ItemType.A, 3, 20);
